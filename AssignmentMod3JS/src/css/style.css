@@ -1,0 +1,32 @@
+body {
+    background-color: aliceblue;
+}
+
+img {
+    height: 15em;
+    width: 25em;
+}
+
+div {
+    padding-left: 2em;
+    float: left;
+}
+
+#info {
+    position: relative;
+    background-color: khaki;
+    left: 20%;
+    top: 3em;
+    padding: 1em;
+    line-height: 2em;
+}
+article {
+    height: 500px;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+    width: 80%; /*width of the parent - article element */
+    height: 100%; /*height of the parent - article element */
+    background-color: grey;
+}
